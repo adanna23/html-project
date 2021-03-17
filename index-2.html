@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial;
+  padding: 10px;
+  background: rgb(255, 255, 255);
+}
+
+/* Header/ADANNA */
+.header {
+  padding: 30px;
+  text-align: center;
+  background: rgb(92, 181, 223);
+}
+
+.header h1 {
+  font-size: 50px;
+}
+
+/* Style the top navigation bar */
+.topnav {
+  overflow: hidden;
+  background-color: rgb(221, 194, 40);
+}
+
+/* Style the topnav links */
+.topnav a {
+  float: left;
+  display: block;
+  color: #131212;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change color on hover */
+.topnav a:hover {
+  background-color: rgb(255, 255, 255);
+  color: black;
+}
+
+/* Create two unequal columns that floats next to each other */
+/* Left column */
+.leftcolumn {   
+  float: left;
+  width: 75%;
+}
+
+/* Right column */
+.rightcolumn {
+  float: left;
+  width: 25%;
+  background-color: rgb(255, 255, 255);
+  padding-left: 20px;
+}
+
+/* Ada image */
+.Ada-me.img {
+  background-color: rgb(92, 181, 223);
+  width: 100%;
+  padding: 20px;
+}
+
+/* Add a card effect for articles */
+.card {
+  background-color: rgb(92, 181, 223);
+  padding: 15px;
+  margin-top: 15px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Footer */
+.footer {
+  padding: 15px;
+  text-align: center;
+  background: rgb(92, 181, 223);
+  margin-top: 15px;
+}
+
+/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 800px) {
+  .leftcolumn, .rightcolumn {   
+    width: 100%;
+    padding: 0;
+  }
+}
+
+/* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+@media screen and (max-width: 400px) {
+  .topnav a {
+    float: none;
+    width: 100%;
+  }
+}
+</style>
+</head>
+<body>
+
+<div class="header">
+  <h1>ADANNA ELEJE.</h1>
+  <p>Welcome to my Website!</p>
+</div>
+
+<div class="topnav">
+  <a href="https://codingtemple.com">Coding Temple</a>
+  <a href="https://www.w3schools.com/html/default.asp">Learn HTML</a>
+  <a href="https://www.w3schools.com/css/default.asp">Learn CSS</a>
+  
+</div>
+
+<div class="row">
+  <div class="leftcolumn">
+    <div class="card">
+      <h2>GOALS</h2>
+      <h5>What do I wish to achieve?, March 16 <sup>th</sup>, 2021</h5>
+      <img src= "images/background.jpg" alt="background image" width="500" height="300" />
+      <figcaption>Shown is one of the BTS shots Adanna took on set.</figcaption>
+      <p>I am taking this course because I am planning on getting my masters in Business Analytics. <br />
+        I am a filmmaker and I would love to apply my Business Analytis skills in the film Industry. <br />
+        I also have always been interested in learning how to code and thought it would be fun to learn!</p>
+
+        <h3 style="border: 2px solid rgb(4, 42, 80)">SKILLS</h2>
+
+            <ul style="border:2px solid rgb(4, 42, 80)">
+        
+                <li> Adobe photoshop </li>
+                
+                <li> Adobe lightroom </li>
+                
+                <li> Adobe premiere Pro cc</li>
+                
+                <li> Adobe After Effects </li>
+                
+                </ul>
+            
+        
+            
+            </ul>
+    </div>
+    <div class="card">
+      <h2>HOBBIES</h2>
+      <h5> What are my interests?</h5>
+      <p>I love:
+        <ul style="border:2px solid rgb(4, 42, 80)">
+
+            <li> skateboarding </li>
+            
+            <li> photography and editing </li>
+            
+            <li> travel</li>
+            
+            <li> Fashion </li>
+            
+            </ul>
+      </p>
+      
+    </div>
+  </div>
+  <div class="rightcolumn">
+    <div class="card">
+      <h2>ADA</h2>
+      <img src="images/ada-me.jpeg" alt= "Adanna Eleje" width="100" height="120" />
+      <p>I am a Nigerian - American living in Boston. I enjoy bingeing TV shows and movies. 
+          <br />
+          <b>ADA</b> means <i>Daddy's first daughter </i> and I am th oldest of two siblings.
+      </p>
+    </div>
+    <div class="card">
+        <form action="http://www.example.com/comments.php"> <p>What did you think of this website?</p>
+            <textarea name="comments" cols="20" rows="4">Enter your comments...</textarea> </form>
+        
+    </div>
+    <div class="card">
+      <h3>Follow Me</h3>
+      <p>You can find me on:</p>
+      <ul style="border:2px solid rgb(4, 42, 80)">
+
+        <li><a href="linkedin.com/in/adanna-eleje-39b64265">Linkedin</a></li>
+        
+        <li><a href="https://www.instagram.com/adannaa.e/">Instagram</a></li>
+        
+        </ul>
+        
+        <p>Or, send me an email <a href="mailto:aydeeleje@gmail.com">aydeeleje@gmail.com</a></p>
+    </div>
+  </div>
+</div>
+
+<div class="footer">
+  <h2>© Copyright Adanna, 2021</h2>
+</div>
+
+</body>
+</html>
+
